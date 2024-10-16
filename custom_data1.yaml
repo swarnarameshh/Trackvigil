@@ -1,0 +1,9 @@
+
+
+train: ../srpdataset/images/train/
+val: ../srpdataset/images/val/
+#number of classes
+nc: 7
+# Classes
+names: ['bolthole crack','bolt missing','rail corrugation','fastener missing','track misalignment','rail crack','vegetation encroachment']
+ 
