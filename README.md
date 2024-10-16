@@ -32,11 +32,6 @@ The dataset used for this project was collected from various sources like Google
 To improve model performance on our custom dataset, transfer learning was utilized:
 The model was fine-tuned from a YOLOv5 model pre-trained on the MS COCO dataset.
 Sublime Text was used to modify the .yaml configuration file, setting up the dataset paths and defining the seven classes of anomalies.
-The training and validation sets were defined as follows:
-train: ../srpdataset/images/train/
-val: ../srpdataset/images/val/
-nc: 7
-names: ['bolthole crack', 'bolt missing', 'rail corrugation', 'fastener missing', 'track misalignment', 'rail crack', 'vegetation encroachment']
 
 # Evaluation Metrics
 Our model performed exceptionally well for certain fault types and showed overall positive trends:
