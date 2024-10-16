@@ -17,7 +17,7 @@ The model is trained to detect the following seven anomalies:
 - Track Misalignment: Irregularities in track alignment that could lead to dangerous operational conditions.
 - Rail Crack: Cracks in the rail itself, posing a major threat to the structural integrity of the railway.
 - Vegetation Encroachment: Overgrown vegetation that can obstruct the track and hinder the safety of railway operations.
-- 
+  
 # Why YOLOv5?
 YOLOv5 (You Only Look Once version 5) is a state-of-the-art object detection model designed for high performance in both speed and accuracy. Here’s why YOLOv5 was chosen for this project:
 Backbone: YOLOv5 uses CSPDarkNet, a backbone known for excellent feature extraction and multi-scale object detection, making it ideal for detecting both small and large anomalies.
@@ -38,6 +38,21 @@ Our model performed exceptionally well for certain fault types and showed overal
 - High Confidence Precision: Achieving 71% precision at high confidence levels for anomalies like vegetation encroachment.
 - Bolt Missing: Detected with 86% accuracy, ensuring critical safety issues are flagged promptly.
 - Background Detection: A perfect score of 1.00 in identifying non-anomalous sections, reducing false positives.
+  
+# Tools and Technologies 🛠️
+- YOLO v5: For object detection.
+- Sublime Text: Used to fine-tune the YOLO v5 .yaml configuration file.
+- Python: Core programming language for implementation.
+- Google and Kaggle: Sources for collecting the dataset.
+
+# Conference Paper
+We are proud to share that our work on TrackVigil was presented and published at the PECTEAM Conference held at our college. The paper provides in-depth details about the model, dataset, and evaluation, showcasing the effectiveness of our approach in real-world applications.
+
+# Next Steps and Future Work 🔄
+We are continually working on improving the model's performance by:
+Collecting more diverse data for underperforming classes.
+Applying advanced augmentation techniques to improve model generalization.
+Experimenting with different thresholds for better precision-recall balance.
 
 # Conclusion
 This project marks a significant step toward automating railway track inspections using deep learning. The model’s ability to detect critical anomalies like missing bolts, track misalignment, and rail cracks can help prevent accidents, reduce downtime, and enhance maintenance efficiency.
