@@ -1,4 +1,4 @@
-TrackVigil: Railway Track Maintenance and Inspection using YOLOv5 🚆🔍
+# TrackVigil: Railway Track Maintenance and Inspection using YOLOv5 🚆🔍
 
 # Trackvigil
 Developed TrackVigil, an AI-powered railway track inspection system using YOLO v5 to detect 7 critical anomalies like bolt missing, track misalignment, and rail cracks. Leveraged transfer learning and achieved promising detection precision to enhance safety and efficiency in track maintenance.
