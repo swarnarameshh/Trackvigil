@@ -27,18 +27,6 @@ Accuracy: The model performs well even with a small dataset, thanks to its advan
 # Dataset Collection
 The dataset used for this project was collected from various sources like Google and Kaggle, and it consists of 120 training images and 35 validation images. The dataset includes labeled images that correspond to the seven different anomalies detected by the model.
 
-# Directory Structure
-The dataset is organized into the following directory structure:
-trackvigil/
-│
-├── images/
-│   ├── train/        # Contains training images
-│   └── val/          # Contains validation images
-│
-├── labels/
-│   ├── train/        # Contains training annotations in YOLO format
-│   └── val/          # Contains validation annotations in YOLO format
-Each image in the train and val folders has a corresponding .txt file in the labels directory, containing the bounding box coordinates and the class of the anomaly.
 
 # Transfer Learning Approach
 To improve model performance on our custom dataset, transfer learning was utilized:
